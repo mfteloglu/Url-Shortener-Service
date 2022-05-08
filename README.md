@@ -1,6 +1,6 @@
 # url-shortener-service
 
-API endpoints : 
+API endpoints (http://url-shortener-mercedes.herokuapp.com) : 
 
 | HTTP method   | POST            |
 | :---          | :---            | 
