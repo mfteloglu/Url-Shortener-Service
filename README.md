@@ -31,7 +31,6 @@ Note : If you leave the "customUrl" field while using POST method, service will 
 ![GET custom shorten](https://user-images.githubusercontent.com/43525350/167320412-9cf04955-1d5f-4d90-bbc5-56c1c14f29da.png)
 &nbsp;&nbsp;
 # Create a random URL : 
-Random URL : 
 ![POST random shorten](https://user-images.githubusercontent.com/43525350/167320447-6705fc4e-1321-4002-b769-b236af80205b.png)
 &nbsp;
 ![GET random shorten](https://user-images.githubusercontent.com/43525350/167320451-15ad1e0d-a53c-41c3-8e3d-b2ec0e5f2d4a.png)
