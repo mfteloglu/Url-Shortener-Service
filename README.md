@@ -11,7 +11,7 @@ API endpoints :
 
 | HTTP method   | GET           |
 | :---          | :---            | 
-| URI           | /{hash}      |
+| URI           | /{urlChunk}      |
 | Reponse Type  | application/json|
 | Response  | Example:{ "url": "https://medium.com/@hjhuney/implementing-a-random-forest-classification-model-in-python-583891c99652", "customUrl" : "forest" }|
 
