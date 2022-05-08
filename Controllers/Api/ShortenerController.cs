@@ -127,14 +127,24 @@ namespace Shortener.Service.Controllers.Api
                     CustomUrl = longUrl.CustomUrl                 
                 };
                 
-                var id = _dbContext.AddUrl(newEntry);       
-                UrlDataDto urlDataDto = new UrlDataDto() { Url = $"{this.Request.Scheme}://{this.Request.Host}/{_urlHelper.GetShortUrl(id)}" };
-                newEntry.CustomUrl = _urlHelper.GetShortUrl(id);
+                var id = _dbContext.AddUrl(newEntry);
+
+                var urlChunk = _urlHelper.GetShortUrl(id);
+                UrlDataDto urlDataDto = new UrlDataDto()
+                {
+                    Url = $"{this.Request.Scheme}://{this.Request.Host}/{urlChunk}",
+                    CustomUrl = urlChunk
+                };
+                newEntry.CustomUrl = urlChunk;
                 _dbContext.UpdateUrlRecord(newEntry);
                 
                 if(longUrl.CustomUrl != "")
                 {
-                    urlDataDto.Url = $"{this.Request.Scheme}://{this.Request.Host}/{longUrl.CustomUrl}";
+                    urlChunk = longUrl.CustomUrl;
+
+                    urlDataDto.Url = $"{this.Request.Scheme}://{this.Request.Host}/{urlChunk}";
+                    urlDataDto.CustomUrl = urlChunk;
+
                     newEntry.CustomUrl = longUrl.CustomUrl;
                     _dbContext.UpdateUrlRecord(newEntry);
                 }
