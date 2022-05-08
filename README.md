@@ -24,12 +24,22 @@ Note : If you leave the "customUrl" field while using POST method, service will 
 | Reponse Type  | application/json|
 | Response  | Example: { "url": “http://url-shortener-mercedes.herokuapp.com/BAAAAA“, "customUrl" : "BAAAAA" }|
 
-Examples : 
-![POST custom shorten](https://user-images.githubusercontent.com/43525350/167319820-68e56b8b-b4b3-44a4-814b-10f5dbdc3041.png)
+# Examples : 
+# Create a custom URL : 
+![POST custom shorten](https://user-images.githubusercontent.com/43525350/167320407-2b6b71d8-a902-42bc-8eb3-3fe0e36ef0f5.png)
 &nbsp;
-![GET custom shorten](https://user-images.githubusercontent.com/43525350/167319826-edd560cc-a608-4183-88bb-a5486c67b152.png)
+![GET custom shorten](https://user-images.githubusercontent.com/43525350/167320412-9cf04955-1d5f-4d90-bbc5-56c1c14f29da.png)
 &nbsp;&nbsp;
+# Create a random URL : 
 Random URL : 
-![POST random shorten](https://user-images.githubusercontent.com/43525350/167319831-cc88146d-e411-4883-8e95-7ee61ec57184.png)
+![POST random shorten](https://user-images.githubusercontent.com/43525350/167320447-6705fc4e-1321-4002-b769-b236af80205b.png)
 &nbsp;
-![GET random shorten](https://user-images.githubusercontent.com/43525350/167319834-7bf2918f-02b2-46d3-a768-9f57213d737d.png)
+![GET random shorten](https://user-images.githubusercontent.com/43525350/167320451-15ad1e0d-a53c-41c3-8e3d-b2ec0e5f2d4a.png)
+&nbsp;&nbsp;
+# Overwrite a URL with custom URL : 
+![POST custom shorten twice](https://user-images.githubusercontent.com/43525350/167320467-14dbed1b-c071-420e-8df1-38f696933652.png)
+&nbsp;
+![GET custom shorten twice](https://user-images.githubusercontent.com/43525350/167320475-5c9090e6-f320-4b80-a478-d609541db407.png)
+
+
+
