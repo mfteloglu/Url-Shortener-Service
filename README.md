@@ -20,9 +20,9 @@ Note : If you leave the "customUrl" field while using POST method, service will 
 | HTTP method   | POST            |
 | :---          | :---            | 
 | URI           | /shorten        |
-| Request Body  | Example:{ "url": “https://medium.com/@hjhuney/implementing-a-random-forest-classification-model-in-python-583891c99652 “, "customUrl" : "" }|
+| Request Body  | Example:{ "url": "https://medium.com/@hjhuney/implementing-a-random-forest-classification-model-in-python-583891c99652 ", "customUrl" : "" }|
 | Reponse Type  | application/json|
-| Response  | Example: { "url": “http://url-shortener-mercedes.herokuapp.com/BAAAAA“, "customUrl" : "BAAAAA" }|
+| Response  | Example: { "url": "http://url-shortener-mercedes.herokuapp.com/BAAAAA", "customUrl" : "BAAAAA" }|
 
 # Examples : 
 # Create a custom URL : 
