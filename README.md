@@ -26,9 +26,9 @@ Note : If you leave the "customUrl" field while using POST method, service will 
 
 Examples : 
 ![POST custom shorten](https://user-images.githubusercontent.com/43525350/167319820-68e56b8b-b4b3-44a4-814b-10f5dbdc3041.png)
----
+<br>
 ![GET custom shorten](https://user-images.githubusercontent.com/43525350/167319826-edd560cc-a608-4183-88bb-a5486c67b152.png)
---------
+<br>
 ![POST random shorten](https://user-images.githubusercontent.com/43525350/167319831-cc88146d-e411-4883-8e95-7ee61ec57184.png)
----
+<br>
 ![GET random shorten](https://user-images.githubusercontent.com/43525350/167319834-7bf2918f-02b2-46d3-a768-9f57213d737d.png)
