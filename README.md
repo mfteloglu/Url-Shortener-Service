@@ -1,5 +1,13 @@
 # url-shortener-service
 
+Web API developed with .NET 5 for shortening URL's in two ways : Custom or Random.
+User can pick a custom URL and transform the long URL's to it.
+Also user can let service shorten the URL randomly to 6-digit hash portion.
+
+For storing the shortened URL's, LiteDB (flexible NoSQL embedded database) is used. 
+
+Project can be run locally, or in a Docker container (Docker file is prepared). More easier, project is deployed to Heroku, it can be used with the following endpoints.
+
 API endpoints (http://url-shortener-mercedes.herokuapp.com) : 
 
 | HTTP method   | POST            |
