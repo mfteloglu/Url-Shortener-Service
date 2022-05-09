@@ -8,7 +8,7 @@ For storing the shortened URL's, LiteDB (flexible NoSQL embedded database) is us
 
 Project can be run locally, or in a Docker container (Docker file is prepared). More easier, project is deployed to Heroku, it can be used with the following endpoints.
 
-API endpoints (http://url-shortener-mercedes.herokuapp.com) : 
+API endpoints (http://url-shortener-mercedes.herokuapp.com - no frontend) : 
 
 | HTTP method   | POST            |
 | :---          | :---            | 
