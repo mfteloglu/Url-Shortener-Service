@@ -13,5 +13,5 @@ RUN dotnet publish -c Release -o out
 FROM mcr.microsoft.com/dotnet/aspnet:5.0
 WORKDIR /app
 COPY --from=build-env /app/out .
-#ENTRYPOINT [ "dotnet", "Shortener.Service.dll"]
-CMD ASPNETCORE_URLS=http://*:$PORT dotnet Shortener.Service.dll
+#ENTRYPOINT [ "dotnet", "Shortener.Service.dll"]   ## UNCOMMENT THIS LINE FOR RUNNING ON A LOCAL DOCKER CONTAINER 
+CMD ASPNETCORE_URLS=http://*:$PORT dotnet Shortener.Service.dll  ## COMMENT THIS LINE IF YOU ARE RUNNING ON DOCKER CONTAINER, THIS IS FOR HEROKU
